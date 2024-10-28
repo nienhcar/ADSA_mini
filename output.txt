@@ -1,0 +1,22 @@
+Enter the text: AbcdkhbfasuygbfrABCabcaubyrfyawoABC
+Do you want to search for multiple patterns? (1 for Yes, 0 for No): 1
+Do you want a case-sensitive search? (1 for Yes, 0 for No): 1
+Enter the number of patterns (up to 10): 2
+Enter pattern 1: ABC
+Enter pattern 2: abc
+Pattern 'ABC' found at index 16
+Pattern 'ABC' found at index 32
+Hash calculations for pattern 'ABC': 38
+Character comparisons for pattern 'ABC': 6
+Pattern 'abc' found at index 19
+Hash calculations for pattern 'abc': 38
+Character comparisons for pattern 'abc': 3
+Time taken for multiple patterns: 0.000019 seconds
+Total hash calculations: 76
+Total character comparisons: 9
+Aggregate amortized hash calculations: 38.000000
+Aggregate amortized character comparisons: 4.500000
+Total potential: 85
+Amortized potential cost: 42.500000
+Total accounting costs: 85
+Amortized accounting cost: 42.500000
